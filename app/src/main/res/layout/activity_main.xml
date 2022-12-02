@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-15dp"
+    tools:layout_editor_absoluteY="14dp">
+
+    <ImageButton
+        android:id="@+id/exit_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/exit_button_ripple"
+        android:contentDescription="@string/app_name"
+        android:elevation="5dp"
+        android:src="@drawable/exit_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/exit_button"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/reset_layout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:src="@drawable/multiplied_vector" />
+        <Space
+            android:layout_width="48dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/circle_vector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reset_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/reset_button_ripple"
+        android:contentDescription="@string/app_name"
+        android:elevation="5dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023">
+
+        <ImageView
+            android:id="@+id/reset_Imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reset_icon_vector" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/indicator"
+        android:layout_width="155dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/indicator_left_vector"
+        app:layout_constraintEnd_toStartOf="@+id/exit_button"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/reset_layout"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/exit_button"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/reset_layout"
+        app:layout_constraintTop_toBottomOf="@+id/indicator">
+
+        <TextView
+            android:id="@+id/multiplied_text"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text=":"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/circle_text"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="71dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:background="@drawable/table"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/iamge_view_0_0"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_0_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_0_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_1_0"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_1_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_1_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_2_0"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_2_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/iamge_view_2_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp" />
+    </GridLayout>
+    <ImageView
+        android:id="@+id/match_tabs"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

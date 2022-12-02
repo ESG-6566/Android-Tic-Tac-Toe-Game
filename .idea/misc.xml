@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3285" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/custom_button.xml" value="0.3285" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/exit_button.xml" value="0.3285" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/exit_button_shape.xml" value="0.281" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/exit_icon.xml" value="0.3255" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/exit_icon_button_vector.xml" value="0.33" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/ic_icons_exit.xml" value="0.3255" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3285" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/drawable/test_vectore.xml" value="0.3285" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/layout/activity_main.xml" value="1.2012847965738758" />
+        <entry key="..\:/Projects/Android P/TicTacToeGame/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3285" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/circle_vector_anim.xml" value="0.291" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3035" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/indicator_left_to_right_anim.xml" value="0.2755" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/indicator_right_to_left_anim.xml" value="0.2755" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_00_01_02.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_00_10_20.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_00_11_22.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_01_11_21.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_02_11_20.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_02_12_22.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_10_11_12.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/line_20_21_22.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable-v24/multiplied_vector_anim.xml" value="0.3385" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/button_ripple.xml" value="0.3245" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/button_shape.xml" value="0.3115" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/button_strock_ripple.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/circle_vector.xml" value="0.291" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/exit_button_shape.xml" value="0.3035" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/exit_icon.xml" value="0.3035" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/exit_icon_button_vector.xml" value="0.3035" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/exit_question_backgraund.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/exit_question_shape.xml" value="0.3115" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/indicator_left_vector.xml" value="0.323" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/indicator_right_to_left_anim.xml" value="0.2755" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/m_c_vec.xml" value="0.291" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/multiplied_vector.xml" value="0.291" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/reset_button_ripple.xml" value="0.3115" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/reset_icon_vector.xml" value="0.3115" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/ripple.xml" value="0.291" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/table_shape.xml" value="0.291" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/test.xml" value="0.3035" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/drawable/test_vectore.xml" value="0.3035" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/layout/exit_question_layout.xml" value="0.5" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/layout/test_activity.xml" value="0.3283514492753623" />
+        <entry key="..\:/Projects/Android_P/TicTacToeGame/app/src/main/res/layout/test_layout.xml" value="0.3283514492753623" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
