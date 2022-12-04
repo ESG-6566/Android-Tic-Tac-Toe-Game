@@ -1,6 +1,6 @@
 <div style="overflow: auto;width: 100%;">
   <div style="width:200px;float: left;">
-    # Android Tic Tac Toe Game
+    Android Tic Tac Toe Game
   </div>
   <div style="width:200px;float: left;">
 
