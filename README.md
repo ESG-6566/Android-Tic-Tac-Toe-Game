@@ -3,4 +3,4 @@
 
 A android game developed in android studio for android 9.0
 
-<button onclick="window.location.href='https://github.com/HEMASE-6566/Android-Tic-Tac-Toe-Game/blob/main/app/release/app-release.apk?raw=true';" style="background-color: #14a73e98 ;" class="button" type="submit">Download apk</button>
+<a href='https://github.com/HEMASE-6566/Android-Tic-Tac-Toe-Game/blob/main/app/release/app-release.apk?raw=true' style="background-color: #14a73e98 ;" class="button" type="submit">Download apk</a>
