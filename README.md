@@ -3,6 +3,4 @@
 
 A android game developed in android studio for android 9.0
 
-<a href="#" class="button">Post comment (link)</a>
-<input class="button" type="submit" value="Post comment (input)">
-<button class="button" type="submit">Post comment (button)</button>
+<button onclick="window.location.href='https://github.com/HEMASE-6566/Android-Tic-Tac-Toe-Game/blob/main/app/release/app-release.apk?raw=true';" style="background-color: #14a73e98 ;" class="button" type="submit">Download apk</button>
